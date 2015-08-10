@@ -18,12 +18,12 @@ func main() {
 
       for sequence_element != 1 {
         sequence_size++
-          sequence_element = next_collatz_number(sequence_element)
+        sequence_element = next_collatz_number(sequence_element)
       }
 
       if sequence_size > max_sequence_size {
         max_sequence_size = sequence_size
-          answer = i
+        answer = i
       }
     }
   fmt.Printf("answer is %d with size %d\n", answer, max_sequence_size)
